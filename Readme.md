@@ -24,3 +24,6 @@
 (1) Firstly, AP stands for average precision. Based on the current items, the target next items can be regarded as a set (Tset). The prediction results can be regarded as another set (Cset), which is sorted based on probability from high to low. Then we can find the location of the matched items in the prediction results. The score of ith matched items, located as the lith elements of the prediction results, can be i/li.  
 (2) According to the above analysis, if the number of matched items is N, the result of AP is (1/l1 + 2/l2 + ... + N/lN)/N  
 (3) MAP is the mean of different users' AP. For the session-based recommendation, MAP can be calculated by averaging each prediction results.  
+
+# Reference
+https://www.dropbox.com/sh/dbzmtq4zhzbj5o9/AACldzQWbw-igKjcPTBI6ZPAa?dl=0  
